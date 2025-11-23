@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="Methods" thread-count="5">
+
+  <test name="Test">
+    <classes>
+      <class name="com.runner.CucumberTestRunner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

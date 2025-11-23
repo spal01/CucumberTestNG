@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-11-21T15:06:37.753Z",
+        "line": 5,
+        "name": "Login with valid user credential",
+        "description": "",
+        "id": "login-to-website;login-with-valid-user-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Login Page",
+            "match": {
+              "location": "com.test.LoginPageStepDep.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter valid username and password",
+            "match": {
+              "location": "com.test.LoginPageStepDep.enterValidUserCredential()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am able to login successfully",
+            "match": {
+              "location": "com.test.LoginPageStepDep.loginSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login to website",
+    "description": "  I want to use this template for my feature file",
+    "id": "login-to-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LoginFunctionality.feature",
+    "tags": []
+  }
+]
